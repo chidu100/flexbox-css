@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-nav ul {
+    background-color: aqua;
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-nav li {
+    border: 2px solid transparent;
+    padding: 5px;
+    margin: 0 10px;
+  }
+  
+  .flex-nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+  }
+  
+  .flex-nav a:hover {
+      background-color: #333;
+      color: blanchedalmond;
+  }
+
+  /* price table css */
+  .pricing-table {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .plan {
+    background-color: #333;
+    color: #ddd;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 22%;
+  }
+  
+  .plan ul {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .plan button {
+    background-color: aqua;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .plan button:hover {
+    background-color: black;
+    color: aliceblue;
+  }
+
+  .testimonials {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .testimonial {
+    font-family: 'Brush Script MT', cursive;
+    box-shadow: 0 0 15px 5px deepskyblue;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex-basis: 200px;
+    text-align: center;
+  }
+  
+  .site-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .site-footer > p {
+    flex-basis: 20%;
+    cursor: pointer;
+  }
+  
+  .site-footer > p:hover {
+    background-color: aqua;
+    color: #333;
+    padding: 5px;
+    margin: o;
+  }
